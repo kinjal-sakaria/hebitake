@@ -9,8 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primaryBlack: "rgba(0, 9, 41, 1)",
+        primaryLight: "rgba(0, 9, 41, 0.6)",
+        lightGray: "rgba(230, 230, 234, 1)",
+        darkGray: "rgba(138, 142, 157, 1)",
+        primaryGray: "rgba(84, 90, 112, 1)",
+        disableGray:'rgba(176, 179, 189, 1)',
+        primaryBlue: "rgba(52, 33, 107, 1)",
+        borderGray: "rgba(0, 0, 0, 0.1)",
+        green: '#01A669',
+        secondaryGreen: 'rgba(1, 166, 105, 1)',
+      },
+      lineHeight: {
+        'extra-tight': '100%',        
+      },
+      screens: {
+        mobile: { min: "320px", max: "480px" },
+        // tablet: { min: "768px", max: "991px" },
+        // laptop: { min: "992px", max: "1024px" },
       },
     },
   },
